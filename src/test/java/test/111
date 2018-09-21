@@ -1,0 +1,67 @@
+
+
+    public WherePartSql and(String conditionSql){
+return this;}
+
+    public WherePartSql or(String conditionSql){
+return this;}
+
+    public WherePartSql and(WherePartSql conditionSql){
+return this;}
+
+    public WherePartSql or(WherePartSql conditionSql){
+return this;}
+
+    public WherePartSql andExists(PartSql conditionSql){
+return this;}
+
+    public WherePartSql andNotExists(PartSql conditionSql){
+return this;}
+
+    public WherePartSql orExists(PartSql conditionSql){
+return this;}
+
+    public WherePartSql orNotExists(PartSql conditionSql){
+return this;}
+
+    public WherePartSql betweenAnd(Object min, Object max){
+return this;}
+
+    public WherePartSql notBetweenAnd(Object min, Object max){
+return this;}
+
+    public WherePartSql in(Object... values){
+return this;}
+
+    public WherePartSql in(String values){
+return this;}
+
+    public WherePartSql in(PartSql<SelectSql> subQuerySql){
+return this;}
+
+    public WherePartSql notIn(Object... values){
+return this;}
+
+    public WherePartSql notIn(String values){
+return this;}
+
+    public WherePartSql notIn(PartSql<SelectSql> subQuerySql){
+return this;}
+
+    public WherePartSql like(String value){
+return this;}
+
+    public WherePartSql like(String value, String escape){
+return this;}
+
+    public WherePartSql notLike(String value){
+return this;}
+
+    public WherePartSql notLike(String value, String escape){
+return this;}
+
+    public WherePartSql regexp(String value){
+return this;}
+
+    public WherePartSql notRegexp(String value){
+return this;}
